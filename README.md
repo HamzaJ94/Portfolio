@@ -2,6 +2,8 @@
 
 ## Software Developer Portfolio Template built with Next.js, and bootstrap.
 
+## Software Developer Portfolio Template built with Next.js, and bootstrap.
+
 <p align="center">
   <kbd>
     <img src="https://github.com/1hanzla100/developer-portfolio/blob/master/picture.PNG"></img>
@@ -19,18 +21,11 @@
 ✔️ Projects\
 ✔️ Github Profile
 
-You'll need [Git](https://git-scm.com) and [Node.js](https://nodejs.org/en/download/) (which comes with
-[npm](http://npmjs.com)) installed on your computer. <br> **For Windows** Install Visual C++ Build Environment:
-[Visual Studio Build Tools](https://visualstudio.microsoft.com/thank-you-downloading-visual-studio/?sku=BuildTools)
-
-```
-node@v10.16.0 or higher
-npm@6.9.0 or higher
-git@2.17.1 or higher
-```
-
 ## Technologies Used
 
+- [Git](https://git-scm.com)
+- [Node.js](https://nodejs.org/en/download/)
+- [npm](http://npmjs.com)
 - [Next.js](https://nextjs.org/)
 - [axios](https://www.npmjs.com/package/axios)
 - [reactstrap](https://reactstrap.github.io/)
