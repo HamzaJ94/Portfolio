@@ -173,7 +173,7 @@ export const seoData: SEODataType = {
   title: "Hamza Jaber",
   description: greetings.description,
   author: "Hamza Jaber",
-  url: "https://developer-portfolio-HamzaJ94.vercel.app",
+  url: "https://portfolio-git-portfolio-hamzaj94s-projects.vercel.app",
   keywords: [
     "Hamza",
     "Hamza Jaber",
