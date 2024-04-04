@@ -44,8 +44,8 @@ export const skillsSection: SkillsSectionType = {
       ],
       softwareSkills: [
         {
-          skillName: "Reactjs",
-          iconifyTag: "vscode-icons:file-type-reactjs",
+          skillName: "Python",
+          iconifyTag: "logos:python",
         },
         {
           skillName: "JavaScript",
@@ -56,12 +56,12 @@ export const skillsSection: SkillsSectionType = {
           iconifyTag: "skill-icons:css",
         },
         {
-          skillName: "HTML",
+          skillName: "html",
           iconifyTag: "skill-icons:html",
         },
         {
-          skillName: "Python",
-          iconifyTag: "logos:python",
+          skillName: "Reactjs",
+          iconifyTag: "vscode-icons:file-type-reactjs",
         },
         {
           skillName: "NPM",
