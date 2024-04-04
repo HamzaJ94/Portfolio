@@ -174,7 +174,6 @@ export const seoData: SEODataType = {
   title: "Hamza Jaber",
   description: greetings.description,
   author: "Hamza Jaber",
-  // image: "https://avatars.githubusercontent.com/u/59178380?v=4",
   url: "https://developer-portfolio-HamzaJ94.vercel.app",
   keywords: [
     "Hamza",
