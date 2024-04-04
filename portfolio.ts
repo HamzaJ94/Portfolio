@@ -52,12 +52,12 @@ export const skillsSection: SkillsSectionType = {
           iconifyTag: "logos:javascript",
         },
         {
-          skillName: "HTML",
-          iconifyTag: "skill-icons:html",
-        },
-        {
           skillName: "CSS",
           iconifyTag: "skill-icons:css",
+        },
+        {
+          skillName: "HTML",
+          iconifyTag: "skill-icons:html",
         },
         {
           skillName: "Python",
