@@ -15,7 +15,7 @@ export const greetings: GreetingsType = {
   name: "Hamza Jaber",
   title: "Hi all, I'm Hamza",
   description:
-    "I'm a passionate Full Stack web developer with experience developing Full Stack web applications with Python, React.js, and Cloud Technologies. I am interested in learning new technologies and implementing them in projects. A Communication Engineer with a background in coding, computer networking and database management.",
+    "A Communication Engineer/Cyebersecurity with a background in computer networking and database management. I'm a passionate Full Stack web developer with experience developing Full Stack web applications with Python, React.js, and Cloud Technologies. I am interested in learning new technologies and implementing them in projects.",
   resumeLink: "#",
 };
 
@@ -32,31 +32,47 @@ export const socialLinks: SocialLinksType = {
 
 export const skillsSection: SkillsSectionType = {
   title: "What I do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  subTitle: "FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
   data: [
     {
       title: "Full Stack Development",
       lottieAnimationFile: "/lottie/skills/fullstack.json", // Path of Lottie Animation JSON File
       skills: [
         emoji("⚡ Building responsive Single-Page-Apps (SPA) & PWA in React.js"),
-        emoji("⚡ Building responsive static websites using Next.js"),
-        emoji("⚡ Building RESTful APIs in Django & Django REST Framework"),
+        emoji("⚡ Building responsive static websites using Next.js & Node.js"),
+        emoji("⚡ Building RESTful APIs in React & Swagger Framework"),
       ],
       softwareSkills: [
         {
-          skillName: "Python",
-          iconifyTag: "logos:python",
+          skillName: "Reactjs",
+          iconifyTag: "vscode-icons:file-type-reactjs",
         },
         {
           skillName: "JavaScript",
           iconifyTag: "logos:javascript",
         },
         {
-          skillName: "Reactjs",
-          iconifyTag: "vscode-icons:file-type-reactjs",
+          skillName: "HTML",
+          iconifyTag: "logos:html-5",
+        },
+        {
+          skillName: "CSS",
+          iconifyTag: "logos:css-3",
+        },
+        {
+          skillName: "Python",
+          iconifyTag: "logos:python",
+        },
+        {
+          skillName: "NPM",
+          iconifyTag: "logos:python",
         },
         {
           skillName: "Nextjs",
+          iconifyTag: "vscode-icons:file-type-light-next",
+        },
+        {
+          skillName: "Nodejs",
           iconifyTag: "vscode-icons:file-type-light-next",
         },
         {
