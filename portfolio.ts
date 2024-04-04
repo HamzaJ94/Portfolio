@@ -159,14 +159,14 @@ export const projects: ProjectType[] = [
   },
 ];
 
-// export const feedbacks: FeedbackType[] = [
-//   {
-//     name: "test",
-//     role: "Frontend Developer",
-//     feedback:
-//       "You were a wonderful addition to our team, alhumdulillah. I'm quite impressed with your abilities and professional practices. You approach problems from a unique perspective and always ask the right question. Finding a good teammate like Hanzla is extremely difficult. He has contributed to the growth of our organization and continues to do so. May Allah bless you with everything you desire.",
-//   },
-// ];
+export const feedbacks: FeedbackType[] = [
+  {
+    name: "test",
+    role: "Frontend Developer",
+    feedback:
+      "You were a wonderful addition to our team, alhumdulillah. I'm quite impressed with your abilities and professional practices. You approach problems from a unique perspective and always ask the right question. Finding a good teammate like Hanzla is extremely difficult. He has contributed to the growth of our organization and continues to do so. May Allah bless you with everything you desire.",
+  },
+];
 
 // See object prototype on /types/section.ts page
 export const seoData: SEODataType = {
