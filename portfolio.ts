@@ -15,7 +15,7 @@ export const greetings: GreetingsType = {
   name: "Hamza Jaber",
   title: "Hi all, I'm Hamza",
   description:
-    "A Communication Engineer/Cyebersecurity with a background in computer networking and database management. I'm a passionate Full Stack web developer with experience developing Full Stack web applications with Python, React.js, and Cloud Technologies. I am interested in learning new technologies and implementing them in projects.",
+    "A Communication Engineer/Cyebersecurity specialist with a background in computer networking and database management. Also a passionate Full Stack web developer with experience developing Full Stack web applications with Python, React.js, and Cloud Technologies. I am interested in learning new technologies and implementing them in projects.",
   resumeLink: "#",
 };
 
@@ -56,7 +56,7 @@ export const skillsSection: SkillsSectionType = {
           iconifyTag: "skill-icons:css",
         },
         {
-          skillName: "html",
+          skillName: "HTML",
           iconifyTag: "skill-icons:html",
         },
         {
@@ -112,6 +112,13 @@ export const educationInfo: EducationType[] = [
     descBullets: [],
   },
   {
+    schoolName: "Technical University of Applied Sciences Würzburg-Schweinfurt (THWS)",
+    subHeader: "Bachelor's studies in Electrical, Electronics and Communications Engineering",
+    duration: "",
+    desc: "",
+    descBullets: [], 
+  },
+  {
     schoolName: "German Jordanian University (GJU)",
     subHeader: "Bachelor of Sciences in Communication Engineering",
     duration: "",
@@ -129,25 +136,25 @@ export const experience: ExperienceType[] = [
     desc: "I crafted backends for diverse web apps, APIs. Implemented PyTest for automated unit and integration testing, of manual testing each sprint.",
   },
   {
-    role: "Full Stack Developer",
-    company: "Duseca Software",
-    companyLogo: "/img/icons/common/duseca_software_logo.jpeg",
-    date: "Jan 2022 - Sept 2023",
-    desc: "Crafted robust mobile application backends employing Django, Python, and REST APIs. Leveraged Django REST Framework, PostgreSQL, AWS, Firebase, Stripe, and WebSocket for efficient development. Collaborated across teams to surpass client expectations. Designed intuitive UIs, empowering clients to effortlessly manage their applications with a visually captivating interface.",
+    role: "Data Coordinator - Low Current Engineer",
+    company: "Al Fayhaa Construction and Contracting",
+    companyLogo: "/img/icons/common/af.png",
+    date: "Feb 2021 - Feb 2022",
+    desc: "Collaborated across teams to surpass client expectations.",
   },
   {
-    role: "Full Stack Developer",
-    company: "ZRTechnologies",
-    companyLogo: "/img/icons/common/zrtech.jpeg",
-    date: "Aug 2022 - Jun 2023",
-    desc: "Crafting diverse web applications, I've elevated functionality and user engagement. Spearheaded Visual Portfolio, leveraging AI for captivating presentations from parsed text. Proficiently set up and optimized applications on Linux servers, guaranteeing smooth scalability and top-notch performance for seamless user experiences.",
+    role: "Applications Developer",
+    company: "Carl Gross",
+    companyLogo: "/img/icons/common/creation-gross.webp",
+    date: "Dec 2017 - May 2018",
+    desc: "Crafting diverse web applications . Proficiently set up and optimized applications on Linux , guaranteeing smooth scalability and top-notch performance for seamless user experiences.",
   },
   {
-    role: "Backend Developer",
-    company: "Bleed-AI",
-    companyLogo: "/img/icons/common/bleedAI.jpg",
-    date: "Sept 2021 - Oct 2021",
-    desc: "As a Django developer at Bleed AI, I integrated a computer vision AI model to process YouTube URLs on a website. I used Django Channels and Websockets to show real-time processing and implemented threading to run multiple instances of the AI model. I also used jQuery for UI rendering and deployed the website on a Heroku server.",
+    role: "Data Entry Assistant",
+    company: "Jordan Radio and Television Corporation",
+    companyLogo: "/img/icons/common/1631317050604.jpeg",
+    date: "Dec 2016 - Jan 2017",
+    desc: "...",
   },
 ];
 
@@ -159,30 +166,20 @@ export const projects: ProjectType[] = [
     link: "https://developer-portfolio-1hanzla100.vercel.app/",
   },
   {
-    name: "Giebo",
-    desc: "A Podcast Platform where creators can easily publish and sell their podcasts, and users can purchase with Handcash BitcoinSV, the future of fast and secure transactions.",
-    link: "https://gibeo.io/",
-  },
-  {
-    name: "O Mejor Oferta",
-    desc: "O Mejor Oferta is a mobile marketplace for buying and selling items nearby, helping users find deals on things they want and make money from items they no longer need.",
-    link: "https://play.google.com/store/apps/details?id=com.duseca.mejor_oferta",
-  },
-  {
-    name: "Hooligan Culture",
-    desc: "A Ecommerce Platform, where shopping meets the future! With HandCash BitcoinSV integration, you can authenticate and purchase products with ease and confidence.",
-    link: "https://hooliganculture.com/",
+    name: "Test",
+    desc: "....",
+    link: "https://",
   },
 ];
 
-export const feedbacks: FeedbackType[] = [
-  {
-    name: "test",
-    role: "Frontend Developer",
-    feedback:
-      "You were a wonderful addition to our team, alhumdulillah. I'm quite impressed with your abilities and professional practices. You approach problems from a unique perspective and always ask the right question. Finding a good teammate like Hanzla is extremely difficult. He has contributed to the growth of our organization and continues to do so. May Allah bless you with everything you desire.",
-  },
-];
+// export const feedbacks: FeedbackType[] = [
+//   {
+//     name: "test",
+//     role: "..",
+//     feedback:
+//       "...",
+//   },
+// ];
 
 // See object prototype on /types/section.ts page
 export const seoData: SEODataType = {
