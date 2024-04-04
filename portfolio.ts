@@ -15,7 +15,7 @@ export const greetings: GreetingsType = {
   name: "Hamza Jaber",
   title: "Hi all, I'm Hamza",
   description:
-    "I’am a dedicated, and proactive communication engineer with a background in coding, computer networking and database management. I have technical skills and work experience in designing, testing and analyzing processes to increase the overall efficiency of operations..........I'm a passionate Full Stack web developer with experience developing Full Stack web applications with Python, React.js, and Cloud Technologies. I am strongly interested in learning new technologies and implementing them in my projects. I'm a self-motivated and hardworking individual who is always ready to learn new things and work in a team.",
+    "I'm a passionate Full Stack web developer with experience in developing Full Stack web applications with Python, React.js, and Cloud Technologies. I am interested in learning new technologies and implementing them in projects..",
   resumeLink: "#",
 };
 
