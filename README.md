@@ -1,13 +1,5 @@
 ## Software Developer Portfolio Template built with Next.js, and bootstrap.
 
-## Software Developer Portfolio Template built with Next.js, and bootstrap.
-
-<p align="center">
-  <kbd>
-    <img src="https://github.com/1hanzla100/developer-portfolio/blob/master/picture.PNG"></img>
-  </kbd>
-</p>
-
 ## To view a live example, **[click here](https://developer-portfolio-HamzaJ94.vercel.app/)**.
 
 ## Sections
