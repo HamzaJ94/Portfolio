@@ -14,6 +14,7 @@
 ## Technologies Used
 
 - [Git](https://git-scm.com)
+- [Varcel](https://vercel.com/)
 - [Node.js](https://nodejs.org/en/download/)
 - [npm](http://npmjs.com)
 - [Next.js](https://nextjs.org/)
