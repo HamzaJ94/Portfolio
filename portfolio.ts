@@ -16,7 +16,6 @@ export const greetings: GreetingsType = {
   title: "Hi all, I'm Hamza",
   description:
     "A Communication Engineer/Cyebersecurity with a background in computer networking and database management. I'm a passionate Full Stack web developer with experience developing Full Stack web applications with Python, React.js, and Cloud Technologies. I am interested in learning new technologies and implementing them in projects.",
-    "A Communication Engineer/Cyebersecurity with a background in computer networking and database management. I'm a passionate Full Stack web developer with experience developing Full Stack web applications with Python, React.js, and Cloud Technologies. I am interested in learning new technologies and implementing them in projects.",
   resumeLink: "#",
 };
 
@@ -48,8 +47,6 @@ export const skillsSection: SkillsSectionType = {
       ],
       softwareSkills: [
         {
-          skillName: "Reactjs",
-          iconifyTag: "vscode-icons:file-type-reactjs",
           skillName: "Reactjs",
           iconifyTag: "vscode-icons:file-type-reactjs",
         },
