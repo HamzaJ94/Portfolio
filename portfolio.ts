@@ -16,6 +16,7 @@ export const greetings: GreetingsType = {
   title: "Hi all, I'm Hamza",
   description:
     "A Communication Engineer/Cyebersecurity with a background in computer networking and database management. I'm a passionate Full Stack web developer with experience developing Full Stack web applications with Python, React.js, and Cloud Technologies. I am interested in learning new technologies and implementing them in projects.",
+    "A Communication Engineer/Cyebersecurity with a background in computer networking and database management. I'm a passionate Full Stack web developer with experience developing Full Stack web applications with Python, React.js, and Cloud Technologies. I am interested in learning new technologies and implementing them in projects.",
   resumeLink: "#",
 };
 
@@ -33,6 +34,7 @@ export const socialLinks: SocialLinksType = {
 export const skillsSection: SkillsSectionType = {
   title: "What I do",
   subTitle: "FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  subTitle: "FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
   data: [
     {
       title: "Full Stack Development",
@@ -41,9 +43,13 @@ export const skillsSection: SkillsSectionType = {
         emoji("⚡ Building responsive Single-Page-Apps (SPA) & PWA in React.js"),
         emoji("⚡ Building responsive static websites using Next.js & Node.js"),
         emoji("⚡ Building RESTful APIs in React & Swagger Framework"),
+        emoji("⚡ Building responsive static websites using Next.js & Node.js"),
+        emoji("⚡ Building RESTful APIs in React & Swagger Framework"),
       ],
       softwareSkills: [
         {
+          skillName: "Reactjs",
+          iconifyTag: "vscode-icons:file-type-reactjs",
           skillName: "Reactjs",
           iconifyTag: "vscode-icons:file-type-reactjs",
         },
@@ -53,11 +59,11 @@ export const skillsSection: SkillsSectionType = {
         },
         {
           skillName: "HTML",
-          iconifyTag: "logos:html-5",
+          iconifyTag: "skill-icons:html",
         },
         {
           skillName: "CSS",
-          iconifyTag: "logos:css-3",
+          iconifyTag: "skill-icons:css",
         },
         {
           skillName: "Python",
@@ -65,15 +71,15 @@ export const skillsSection: SkillsSectionType = {
         },
         {
           skillName: "NPM",
-          iconifyTag: "logos:python",
+          iconifyTag: "logos:npm-icon",
         },
         {
           skillName: "Nextjs",
-          iconifyTag: "vscode-icons:file-type-light-next",
+          iconifyTag: "logos:nextjs-icon",
         },
         {
           skillName: "Nodejs",
-          iconifyTag: "vscode-icons:file-type-light-next",
+          iconifyTag: "logos:nodejs-icon-alt",
         },
         {
           skillName: "Github",
