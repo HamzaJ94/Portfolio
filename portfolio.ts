@@ -26,7 +26,6 @@ export const openSource = {
 export const contact = {};
 
 export const socialLinks: SocialLinksType = {
-  email: "mailto:ar.jaber57@hotmail.com",
   linkedin: "https://www.linkedin.com/in/hamza-jaber-4ba560156/",
   github: "https://github.com/HamzaJ94",
 };
