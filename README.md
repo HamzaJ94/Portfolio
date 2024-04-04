@@ -1,5 +1,3 @@
-<h1 align="center">Welcome to developer-portfolio 👋</h1>
-
 ## Software Developer Portfolio Template built with Next.js, and bootstrap.
 
 ## Software Developer Portfolio Template built with Next.js, and bootstrap.
