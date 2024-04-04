@@ -16,6 +16,7 @@ export const greetings: GreetingsType = {
   title: "Hi all, I'm Hamza",
   description:
     "A Communication Engineer/Cyebersecurity specialist with a background in computer networking and database management. Also a passionate Full Stack web developer with experience developing Full Stack web applications with Python, React.js, and Cloud Technologies. I am interested in learning new technologies and implementing them in projects.",
+    "A Communication Engineer/Cyebersecurity specialist with a background in computer networking and database management. Also a passionate Full Stack web developer with experience developing Full Stack web applications with Python, React.js, and Cloud Technologies. I am interested in learning new technologies and implementing them in projects.",
   resumeLink: "#",
 };
 
@@ -56,6 +57,7 @@ export const skillsSection: SkillsSectionType = {
           iconifyTag: "skill-icons:css",
         },
         {
+          skillName: "HTML",
           skillName: "HTML",
           iconifyTag: "skill-icons:html",
         },
@@ -116,6 +118,14 @@ export const educationInfo: EducationType[] = [
     subHeader: "Bachelor's studies in Electrical, Electronics and Communications Engineering",
     duration: "",
     desc: "",
+    descBullets: [],
+  },
+  {
+    schoolName: "Technical University of Applied Sciences Würzburg-Schweinfurt (THWS)",
+    subHeader: "Bachelor's studies in Electrical, Electronics and Communications Engineering",
+    duration: "",
+    desc: "",
+    descBullets: [], 
     descBullets: [], 
   },
   {
@@ -141,6 +151,11 @@ export const experience: ExperienceType[] = [
     companyLogo: "/img/icons/common/af.png",
     date: "Feb 2021 - Feb 2022",
     desc: "Collaborated across teams to surpass client expectations.",
+    role: "Data Coordinator - Low Current Engineer",
+    company: "Al Fayhaa Construction and Contracting",
+    companyLogo: "/img/icons/common/af.png",
+    date: "Feb 2021 - Feb 2022",
+    desc: "Collaborated across teams to surpass client expectations.",
   },
   {
     role: "Applications Developer",
@@ -148,8 +163,18 @@ export const experience: ExperienceType[] = [
     companyLogo: "/img/icons/common/creation-gross.webp",
     date: "Dec 2017 - May 2018",
     desc: "Crafting diverse web applications . Proficiently set up and optimized applications on Linux , guaranteeing smooth scalability and top-notch performance for seamless user experiences.",
+    role: "Applications Developer",
+    company: "Carl Gross",
+    companyLogo: "/img/icons/common/creation-gross.webp",
+    date: "Dec 2017 - May 2018",
+    desc: "Crafting diverse web applications . Proficiently set up and optimized applications on Linux , guaranteeing smooth scalability and top-notch performance for seamless user experiences.",
   },
   {
+    role: "Data Entry Assistant",
+    company: "Jordan Radio and Television Corporation",
+    companyLogo: "/img/icons/common/1631317050604.jpeg",
+    date: "Dec 2016 - Jan 2017",
+    desc: "...",
     role: "Data Entry Assistant",
     company: "Jordan Radio and Television Corporation",
     companyLogo: "/img/icons/common/1631317050604.jpeg",
@@ -169,17 +194,20 @@ export const projects: ProjectType[] = [
     name: "Test",
     desc: "....",
     link: "https://",
+    name: "Test",
+    desc: "....",
+    link: "https://",
   },
 ];
 
-// export const feedbacks: FeedbackType[] = [
-//   {
-//     name: "test",
-//     role: "..",
-//     feedback:
-//       "...",
-//   },
-// ];
+export const feedbacks: FeedbackType[] = [
+  {
+    name: "test",
+    role: "..",
+    feedback:
+      "...",
+  },
+];
 
 // See object prototype on /types/section.ts page
 export const seoData: SEODataType = {
