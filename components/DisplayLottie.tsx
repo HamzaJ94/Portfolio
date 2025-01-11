@@ -1,21 +1,20 @@
-import dynamic from 'next/dynamic';
-
-// Dynamically import Lottie with SSR disabled
-const Lottie = dynamic(() => import('react-lottie'), { ssr: false });
+import React from "react";
+import Lottie from "react-lottie";
 
 type Props = {
-  animationData: object; // Expecting animation JSON data
+  animationPath: string;
 };
 
-const GreetingLottie = ({ animationData }: Props) => {
+const GreetingLottie = ({ animationPath }: Props) => {
   const defaultOptions = {
     loop: true,
     autoplay: true,
-    animationData: animationData, // Pass animation data
+    path: animationPath,
   };
 
   return (
     <div onClick={() => null}>
+      {/* @ts-ignore */}
       <Lottie options={defaultOptions} />
     </div>
   );
