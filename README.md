@@ -1,5 +1,3 @@
-=======
-
 ## Software Developer Portfolio Template built with Next.js, and bootstrap.
 
 ## To view a live example, **[click here](https://portfolio-git-portfolio-hamzaj94s-projects.vercel.app/)**.
@@ -27,15 +25,3 @@
 - [react-easy-emoji](https://github.com/appfigures/react-easy-emoji)
 - [react-headroom](https://github.com/KyleAMathews/react-headroom)
 - [color-thief](https://github.com/lokesh/color-thief)
-
-## Illustrations
-
-- [Lottie File Source](https://lottiefiles.com)
-
-## Icons
-
-Iconify Icons are used in skill section. You can find all the icons here: [Iconify](https://icon-sets.iconify.design/).
-
-> > > > > > > 70ddb2e (portfolio)
-# portfolio
-# Portfolio
