@@ -1,5 +1,8 @@
 import React from "react";
-import Lottie from "react-lottie";
+import dynamic from "next/dynamic";
+
+// Dynamically import Lottie with ssr: false
+const Lottie = dynamic(() => import("react-lottie"), { ssr: false });
 
 type Props = {
   animationPath: string;
@@ -14,7 +17,7 @@ const GreetingLottie = ({ animationPath }: Props) => {
 
   return (
     <div onClick={() => null}>
-      {/* @ts-ignore */}
+      {/* Render Lottie only on the client-side */}
       <Lottie options={defaultOptions} />
     </div>
   );
