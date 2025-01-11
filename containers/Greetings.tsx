@@ -31,7 +31,7 @@ const Greetings = () => {
                 <Col lg="6">
                   <h1 className="display-3 text-white">{greetings.title + " "}</h1>
                   <p className="lead text-white">{greetings.description}</p>
-                  <SocialLinks />
+                  {/* <SocialLinks />
                   {greetings.resumeLink && (
                     <div className="btn-wrapper my-4">
                       <Button
@@ -45,7 +45,7 @@ const Greetings = () => {
                         <span className="btn-inner--text">See My Resume</span>
                       </Button>
                     </div>
-                  )}
+                  )} */}
                 </Col>
                 <Col lg="6">
                   <GreetingLottie animationPath="/lottie/coding.json" />

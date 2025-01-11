@@ -112,20 +112,6 @@ export const educationInfo: EducationType[] = [
     descBullets: [],
   },
   {
-    schoolName: "Technical University of Applied Sciences Würzburg-Schweinfurt (THWS)",
-    subHeader: "Bachelor's studies in Electrical, Electronics and Communications Engineering",
-    duration: "",
-    desc: "",
-    descBullets: [],
-  },
-  {
-    schoolName: "Technical University of Applied Sciences Würzburg-Schweinfurt (THWS)",
-    subHeader: "Bachelor's studies in Electrical, Electronics and Communications Engineering",
-    duration: "",
-    desc: "",
-    descBullets: [], 
-  },
-  {
     schoolName: "German Jordanian University (GJU)",
     subHeader: "Bachelor of Sciences in Communication Engineering",
     duration: "",
@@ -139,43 +125,38 @@ export const experience: ExperienceType[] = [
     role: "Software Developer",
     company: "50Hertz Transmission GmbH",
     companyLogo: "/img/icons/common/Referenz_50Hertz_neu.webp",
-    date: "2022 - Present",
+    date: "2022 - 2024",
     desc: "I crafted backends for diverse web apps, APIs. Implemented PyTest for automated unit and integration testing, of manual testing each sprint.",
   },
   {
     role: "Data Coordinator - Low Current Engineer",
     company: "Al Fayhaa Construction and Contracting",
     companyLogo: "/img/icons/common/af.png",
-    date: "Feb 2021 - Feb 2022",
+    date: "2021 - 2022",
     desc: "Collaborated across teams to surpass client expectations.",
   },
   {
     role: "Applications Developer",
     company: "Carl Gross",
     companyLogo: "/img/icons/common/creation-gross.webp",
-    date: "Dec 2017 - May 2018",
+    date: "2017 - 2018",
     desc: "Crafting diverse web applications . Proficiently set up and optimized applications on Linux , guaranteeing smooth scalability and top-notch performance for seamless user experiences.",
   },
-  {
-    role: "Data Entry Assistant",
-    company: "Jordan Radio and Television Corporation",
-    companyLogo: "/img/icons/common/1631317050604.jpeg",
-    date: "Dec 2016 - Jan 2017",
-    desc: "...",
-  },
+  
 ];
 
 export const projects: ProjectType[] = [
   {
-    name: "developer-portfolio",
+    name: "Portfolio",
     desc: "Software Developer Portfolio Template built with react.js and next.js bootstrap that helps you showcase your work and skills as a software developer.",
-    github: "https://github.com/1hanzla100/developer-portfolio",
-    link: "https://developer-portfolio-1hanzla100.vercel.app/",
+    github: "https://github.com/HamzaJ94/Portfolio",
+    link: "https://portfolio-git-portfolio-hamzaj94s-projects.vercel.app/",
   },
   {
-    name: "Test",
-    desc: "....",
-    link: "https://",
+    name: "Secured-App",
+    desc: "A secure web app built with React.js and Express.js to enhance the security of React-based applications. This project integrates key security features and best practices, addressing vulnerabilities like XSS and CSRF, providing developers with a practical tool to build more secure React apps.",
+    github: "https://github.com/HamzaJ94/Secured-App",
+    link: "https://secured-app-lake.vercel.app/login",
   },
 ];
 
