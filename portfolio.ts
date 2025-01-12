@@ -141,7 +141,7 @@ export const experience: ExperienceType[] = [
   },
   {
     role: "Application Developer",
-    company: "Carl Gross",
+    company: "Création Gross GmbH & Co. KG",
     companyLogo: "/img/icons/common/creation-gross.webp",
     date: "2017 - 2018",
     desc: "Crafting diverse web applications. Developed expertise in SQL Server and client-server projects using C#, focused on monitoring and optimizing the performance of ERP systems, particularly Microsoft Dynamics AX..",
@@ -169,7 +169,7 @@ export const projects: ProjectType[] = [
 //     name: "test",
 //     role: "..",
 //     feedback:
-//       "...",
+//       "Feedback section currently empty.",
 //   },
 // ];
 
