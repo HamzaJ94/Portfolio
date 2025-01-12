@@ -2,7 +2,7 @@ import emoji from "react-easy-emoji";
 import {
   EducationType,
   ExperienceType,
-  // FeedbackType,
+  FeedbackType,
   ProjectType,
   SkillsSectionType,
   SkillBarsType,
@@ -164,14 +164,14 @@ export const projects: ProjectType[] = [
   },
 ];
 
-// export const feedbacks: FeedbackType[] = [
-//   {
-//     name: "test",
-//     role: "..",
-//     feedback:
-//       "Feedback section currently empty.",
-//   },
-// ];
+export const feedbacks: FeedbackType[] = [
+  {
+    name: "test",
+    role: "..",
+    feedback:
+      "Feedback section currently empty.",
+  },
+];
 
 // See object prototype on /types/section.ts page
 export const seoData: SEODataType = {
