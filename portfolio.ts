@@ -15,7 +15,7 @@ export const greetings: GreetingsType = {
   name: "Hamza Jaber",
   title: "Hi all, I'm Hamza",
   description:
-    "A Communication Engineer/Cyebersecurity specialist with a background in computer networking and database management. Also a passionate Full Stack web developer with experience developing Full Stack web applications with Python, React.js, and Cloud Technologies. I am interested in learning new technologies and implementing them in projects.",
+    "A skilled Communication Engineer and Cybersecurity specialist with a solid background in computer networking and database management. As a passionate Full Stack web developer, I have hands-on experience building web applications using Python, React.js, and Cloud technologies. I specialize in designing, developing, and securing web apps, with expertise in secure coding practices, threat analysis, and vulnerability management. My focus extends to both front-end and back-end security, including encryption, authentication protocols, and API security.",
   resumeLink: "#",
 };
 
@@ -91,29 +91,33 @@ export const skillsSection: SkillsSectionType = {
 export const SkillBars: SkillBarsType[] = [
   {
     Stack: "Frontend/Design", 
-    progressPercentage: "80",
+    progressPercentage: "85",
   },
   {
     Stack: "Backend",
-    progressPercentage: "70",
+    progressPercentage: "80",
   },
   {
     Stack: "Programming",
-    progressPercentage: "85",
+    progressPercentage: "90",
+  },
+  {
+    Stack: "Application Security",
+    progressPercentage: "90",
   },
 ];
 
 export const educationInfo: EducationType[] = [
   {
     schoolName: "SRH Berlin University of Applied Sciences",
-    subHeader: "Master of Science in Computer Science | Focus on Cyber Security",
+    subHeader: "Master of Computer Science in Cybersecurity",
     duration: "",
     desc: "",
     descBullets: [],
   },
   {
     schoolName: "German Jordanian University (GJU)",
-    subHeader: "Bachelor of Sciences in Communication Engineering",
+    subHeader: "Bachelor of Science in Communication Engineering",
     duration: "",
     desc: "",
     descBullets: [], 
@@ -126,21 +130,21 @@ export const experience: ExperienceType[] = [
     company: "50Hertz Transmission GmbH",
     companyLogo: "/img/icons/common/Referenz_50Hertz_neu.webp",
     date: "2022 - 2024",
-    desc: "I crafted backends for diverse web apps, APIs. Implemented PyTest for automated unit and integration testing, of manual testing each sprint.",
+    desc: "Developed dynamic and responsive UIs with React.js, implemented interactive features with JavaScript, and built web pages using HTML and CSS. Integrated RESTful APIs for front-end and back-end communication and managed databases with MongoDB. Ensured code quality with Jest testing and collaborated using Git, GitHub, and Azure DevOps for version control and seamless integration.",
   },
   {
-    role: "Data Coordinator - Low Current Engineer",
+    role: "Data Coordinator/Low Current Engineer",
     company: "Al Fayhaa Construction and Contracting",
     companyLogo: "/img/icons/common/af.png",
     date: "2021 - 2022",
-    desc: "Collaborated across teams to surpass client expectations.",
+    desc: "Developed expertise in MS Dynamics 365 ERP, supporting business processes through integrated applications. Managed and modified data in Excel for item listings, pricing, and quotation validation. Regularly updated records and prepared detailed reports to ensure the accuracy and success of project implementations.",
   },
   {
-    role: "Applications Developer",
+    role: "Application Developer",
     company: "Carl Gross",
     companyLogo: "/img/icons/common/creation-gross.webp",
     date: "2017 - 2018",
-    desc: "Crafting diverse web applications . Proficiently set up and optimized applications on Linux , guaranteeing smooth scalability and top-notch performance for seamless user experiences.",
+    desc: "Crafting diverse web applications. Developed expertise in SQL Server and client-server projects using C#, focused on monitoring and optimizing the performance of ERP systems, particularly Microsoft Dynamics AX..",
   },
   
 ];
@@ -160,14 +164,14 @@ export const projects: ProjectType[] = [
   },
 ];
 
-export const feedbacks: FeedbackType[] = [
-  {
-    name: "test",
-    role: "..",
-    feedback:
-      "...",
-  },
-];
+// export const feedbacks: FeedbackType[] = [
+//   {
+//     name: "test",
+//     role: "..",
+//     feedback:
+//       "...",
+//   },
+// ];
 
 // See object prototype on /types/section.ts page
 export const seoData: SEODataType = {
